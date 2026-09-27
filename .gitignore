@@ -1,0 +1,10 @@
+.vscode/
+*.class
+build/
+target/
+out/
+dist/
+temp/
+work/
+logs/
+*.log

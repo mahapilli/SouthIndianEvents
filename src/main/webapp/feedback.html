@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Feedback</title>
+</head>
+<body>
+    <h1>Give Your Feedback</h1>
+    <form action="feedback" method="post">
+        <p>
+            Name:
+            <input type="text" name="name" required>
+        </p>
+        <p>
+            Rating:
+            <select name="rating">
+                <option value="5">5 - Excellent</option>
+                <option value="4">4 - Very Good</option>
+                <option value="3">3 - Good</option>
+                <option value="2">2 - Average</option>
+                <option value="1">1 - Poor</option>
+            </select>
+        </p>
+        <p>
+            Review:
+            <br>
+            <textarea name="review" rows="5" cols="40" required></textarea>
+        </p>
+        <input type="submit" value="Submit Feedback">
+    </form>
+    <br>
+    <a href="index.html">Back to Home</a>
+</body>
+</html>

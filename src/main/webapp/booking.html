@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Book an Event</title>
+</head>
+<body>
+    <h1>Book Your Event</h1>
+    <form action="booking" method="post">
+        <p>
+            Customer Name:
+            <input type="text" name="customerName" required>
+        </p>
+        <p>
+            Event Type:
+            <select name="eventType">
+                <option value="Wedding">Wedding</option>
+                <option value="Engagement">Engagement</option>
+                <option value="Naming Ceremony">Naming Ceremony</option>
+                <option value="Housewarming">Housewarming</option>
+                <option value="Baby Shower">Baby Shower</option>
+                <option value="Birthday">Birthday</option>
+            </select>
+        </p>
+        <p>
+            Event Date:
+            <input type="date" name="eventDate" required>
+        </p>
+        <p>
+            Location:
+            <input type="text" name="location" required>
+        </p>
+        <p>
+            Decoration Choice:
+            <select name="decoration">
+                <option value="Wedding Decoration">Wedding Decoration</option>
+                <option value="Flower Decoration">Flower Decoration</option>
+                <option value="Traditional Mandapam">Traditional Mandapam</option>
+                <option value="Entrance Decoration">Entrance Decoration</option>
+                <option value="Stage Decoration">Stage Decoration</option>
+            </select>
+        </p>
+        <input type="submit" value="Submit Booking">
+    </form>
+    <br>
+    <a href="index.html">Back to Home</a>
+</body>
+</html>
